@@ -1,0 +1,840 @@
+[
+  {
+    "name": "SmallGraph1",
+    "prim": {
+      "algorithm": "Prim",
+      "mstEdges": [
+        {
+          "u": 0,
+          "v": 1,
+          "weight": 2
+        },
+        {
+          "u": 1,
+          "v": 3,
+          "weight": 1
+        },
+        {
+          "u": 1,
+          "v": 2,
+          "weight": 3
+        }
+      ],
+      "totalCost": 6,
+      "vertices": 4,
+      "edges": 5,
+      "operations": 20,
+      "timeMs": 0
+    },
+    "kruskal": {
+      "algorithm": "Kruskal",
+      "mstEdges": [
+        {
+          "u": 1,
+          "v": 3,
+          "weight": 1
+        },
+        {
+          "u": 0,
+          "v": 1,
+          "weight": 2
+        },
+        {
+          "u": 1,
+          "v": 2,
+          "weight": 3
+        }
+      ],
+      "totalCost": 6,
+      "vertices": 4,
+      "edges": 5,
+      "operations": 10,
+      "timeMs": 1
+    }
+  },
+  {
+    "name": "SmallGraph2",
+    "prim": {
+      "algorithm": "Prim",
+      "mstEdges": [
+        {
+          "u": 0,
+          "v": 1,
+          "weight": 9
+        },
+        {
+          "u": 1,
+          "v": 3,
+          "weight": 5
+        },
+        {
+          "u": 3,
+          "v": 4,
+          "weight": 2
+        },
+        {
+          "u": 2,
+          "v": 3,
+          "weight": 7
+        }
+      ],
+      "totalCost": 23,
+      "vertices": 5,
+      "edges": 6,
+      "operations": 24,
+      "timeMs": 0
+    },
+    "kruskal": {
+      "algorithm": "Kruskal",
+      "mstEdges": [
+        {
+          "u": 3,
+          "v": 4,
+          "weight": 2
+        },
+        {
+          "u": 1,
+          "v": 3,
+          "weight": 5
+        },
+        {
+          "u": 2,
+          "v": 3,
+          "weight": 7
+        },
+        {
+          "u": 0,
+          "v": 1,
+          "weight": 9
+        }
+      ],
+      "totalCost": 23,
+      "vertices": 5,
+      "edges": 6,
+      "operations": 12,
+      "timeMs": 0
+    }
+  },
+  {
+    "name": "MediumGraph1",
+    "prim": {
+      "algorithm": "Prim",
+      "mstEdges": [
+        {
+          "u": 0,
+          "v": 1,
+          "weight": 4
+        },
+        {
+          "u": 0,
+          "v": 7,
+          "weight": 8
+        },
+        {
+          "u": 6,
+          "v": 7,
+          "weight": 1
+        },
+        {
+          "u": 5,
+          "v": 6,
+          "weight": 2
+        },
+        {
+          "u": 2,
+          "v": 5,
+          "weight": 4
+        },
+        {
+          "u": 2,
+          "v": 8,
+          "weight": 2
+        },
+        {
+          "u": 8,
+          "v": 9,
+          "weight": 3
+        },
+        {
+          "u": 2,
+          "v": 3,
+          "weight": 7
+        },
+        {
+          "u": 3,
+          "v": 4,
+          "weight": 9
+        }
+      ],
+      "totalCost": 40,
+      "vertices": 10,
+      "edges": 15,
+      "operations": 60,
+      "timeMs": 0
+    },
+    "kruskal": {
+      "algorithm": "Kruskal",
+      "mstEdges": [
+        {
+          "u": 6,
+          "v": 7,
+          "weight": 1
+        },
+        {
+          "u": 2,
+          "v": 8,
+          "weight": 2
+        },
+        {
+          "u": 5,
+          "v": 6,
+          "weight": 2
+        },
+        {
+          "u": 8,
+          "v": 9,
+          "weight": 3
+        },
+        {
+          "u": 0,
+          "v": 1,
+          "weight": 4
+        },
+        {
+          "u": 2,
+          "v": 5,
+          "weight": 4
+        },
+        {
+          "u": 2,
+          "v": 3,
+          "weight": 7
+        },
+        {
+          "u": 0,
+          "v": 7,
+          "weight": 8
+        },
+        {
+          "u": 3,
+          "v": 4,
+          "weight": 9
+        }
+      ],
+      "totalCost": 40,
+      "vertices": 10,
+      "edges": 15,
+      "operations": 30,
+      "timeMs": 0
+    }
+  },
+  {
+    "name": "MediumGraph2",
+    "prim": {
+      "algorithm": "Prim",
+      "mstEdges": [
+        {
+          "u": 0,
+          "v": 1,
+          "weight": 2
+        },
+        {
+          "u": 0,
+          "v": 2,
+          "weight": 3
+        },
+        {
+          "u": 2,
+          "v": 4,
+          "weight": 4
+        },
+        {
+          "u": 1,
+          "v": 3,
+          "weight": 5
+        },
+        {
+          "u": 3,
+          "v": 5,
+          "weight": 6
+        },
+        {
+          "u": 5,
+          "v": 7,
+          "weight": 3
+        },
+        {
+          "u": 7,
+          "v": 9,
+          "weight": 2
+        },
+        {
+          "u": 9,
+          "v": 11,
+          "weight": 4
+        },
+        {
+          "u": 10,
+          "v": 11,
+          "weight": 6
+        },
+        {
+          "u": 8,
+          "v": 10,
+          "weight": 5
+        },
+        {
+          "u": 4,
+          "v": 6,
+          "weight": 8
+        }
+      ],
+      "totalCost": 48,
+      "vertices": 12,
+      "edges": 13,
+      "operations": 52,
+      "timeMs": 0
+    },
+    "kruskal": {
+      "algorithm": "Kruskal",
+      "mstEdges": [
+        {
+          "u": 0,
+          "v": 1,
+          "weight": 2
+        },
+        {
+          "u": 7,
+          "v": 9,
+          "weight": 2
+        },
+        {
+          "u": 0,
+          "v": 2,
+          "weight": 3
+        },
+        {
+          "u": 5,
+          "v": 7,
+          "weight": 3
+        },
+        {
+          "u": 2,
+          "v": 4,
+          "weight": 4
+        },
+        {
+          "u": 9,
+          "v": 11,
+          "weight": 4
+        },
+        {
+          "u": 1,
+          "v": 3,
+          "weight": 5
+        },
+        {
+          "u": 8,
+          "v": 10,
+          "weight": 5
+        },
+        {
+          "u": 3,
+          "v": 5,
+          "weight": 6
+        },
+        {
+          "u": 10,
+          "v": 11,
+          "weight": 6
+        },
+        {
+          "u": 4,
+          "v": 6,
+          "weight": 8
+        }
+      ],
+      "totalCost": 48,
+      "vertices": 12,
+      "edges": 13,
+      "operations": 26,
+      "timeMs": 0
+    }
+  },
+  {
+    "name": "LargeGraph1",
+    "prim": {
+      "algorithm": "Prim",
+      "mstEdges": [
+        {
+          "u": 0,
+          "v": 1,
+          "weight": 4
+        },
+        {
+          "u": 1,
+          "v": 3,
+          "weight": 7
+        },
+        {
+          "u": 2,
+          "v": 3,
+          "weight": 3
+        },
+        {
+          "u": 3,
+          "v": 4,
+          "weight": 5
+        },
+        {
+          "u": 4,
+          "v": 5,
+          "weight": 2
+        },
+        {
+          "u": 5,
+          "v": 6,
+          "weight": 6
+        },
+        {
+          "u": 6,
+          "v": 7,
+          "weight": 4
+        },
+        {
+          "u": 2,
+          "v": 17,
+          "weight": 8
+        },
+        {
+          "u": 16,
+          "v": 17,
+          "weight": 5
+        },
+        {
+          "u": 15,
+          "v": 16,
+          "weight": 4
+        },
+        {
+          "u": 17,
+          "v": 18,
+          "weight": 7
+        },
+        {
+          "u": 18,
+          "v": 19,
+          "weight": 3
+        },
+        {
+          "u": 14,
+          "v": 15,
+          "weight": 9
+        },
+        {
+          "u": 13,
+          "v": 14,
+          "weight": 6
+        },
+        {
+          "u": 12,
+          "v": 13,
+          "weight": 2
+        },
+        {
+          "u": 11,
+          "v": 12,
+          "weight": 8
+        },
+        {
+          "u": 10,
+          "v": 11,
+          "weight": 7
+        },
+        {
+          "u": 9,
+          "v": 10,
+          "weight": 5
+        },
+        {
+          "u": 8,
+          "v": 9,
+          "weight": 3
+        }
+      ],
+      "totalCost": 98,
+      "vertices": 20,
+      "edges": 22,
+      "operations": 88,
+      "timeMs": 0
+    },
+    "kruskal": {
+      "algorithm": "Kruskal",
+      "mstEdges": [
+        {
+          "u": 4,
+          "v": 5,
+          "weight": 2
+        },
+        {
+          "u": 12,
+          "v": 13,
+          "weight": 2
+        },
+        {
+          "u": 2,
+          "v": 3,
+          "weight": 3
+        },
+        {
+          "u": 8,
+          "v": 9,
+          "weight": 3
+        },
+        {
+          "u": 18,
+          "v": 19,
+          "weight": 3
+        },
+        {
+          "u": 0,
+          "v": 1,
+          "weight": 4
+        },
+        {
+          "u": 6,
+          "v": 7,
+          "weight": 4
+        },
+        {
+          "u": 15,
+          "v": 16,
+          "weight": 4
+        },
+        {
+          "u": 3,
+          "v": 4,
+          "weight": 5
+        },
+        {
+          "u": 9,
+          "v": 10,
+          "weight": 5
+        },
+        {
+          "u": 16,
+          "v": 17,
+          "weight": 5
+        },
+        {
+          "u": 5,
+          "v": 6,
+          "weight": 6
+        },
+        {
+          "u": 13,
+          "v": 14,
+          "weight": 6
+        },
+        {
+          "u": 1,
+          "v": 3,
+          "weight": 7
+        },
+        {
+          "u": 10,
+          "v": 11,
+          "weight": 7
+        },
+        {
+          "u": 17,
+          "v": 18,
+          "weight": 7
+        },
+        {
+          "u": 11,
+          "v": 12,
+          "weight": 8
+        },
+        {
+          "u": 2,
+          "v": 17,
+          "weight": 8
+        },
+        {
+          "u": 7,
+          "v": 8,
+          "weight": 9
+        }
+      ],
+      "totalCost": 98,
+      "vertices": 20,
+      "edges": 22,
+      "operations": 44,
+      "timeMs": 0
+    }
+  },
+  {
+    "name": "LargeGraph2",
+    "prim": {
+      "algorithm": "Prim",
+      "mstEdges": [
+        {
+          "u": 0,
+          "v": 2,
+          "weight": 3
+        },
+        {
+          "u": 0,
+          "v": 1,
+          "weight": 5
+        },
+        {
+          "u": 1,
+          "v": 3,
+          "weight": 4
+        },
+        {
+          "u": 3,
+          "v": 5,
+          "weight": 6
+        },
+        {
+          "u": 2,
+          "v": 4,
+          "weight": 7
+        },
+        {
+          "u": 4,
+          "v": 6,
+          "weight": 2
+        },
+        {
+          "u": 5,
+          "v": 7,
+          "weight": 8
+        },
+        {
+          "u": 7,
+          "v": 9,
+          "weight": 3
+        },
+        {
+          "u": 9,
+          "v": 11,
+          "weight": 7
+        },
+        {
+          "u": 11,
+          "v": 13,
+          "weight": 6
+        },
+        {
+          "u": 13,
+          "v": 15,
+          "weight": 9
+        },
+        {
+          "u": 15,
+          "v": 17,
+          "weight": 4
+        },
+        {
+          "u": 17,
+          "v": 19,
+          "weight": 6
+        },
+        {
+          "u": 19,
+          "v": 21,
+          "weight": 8
+        },
+        {
+          "u": 6,
+          "v": 8,
+          "weight": 9
+        },
+        {
+          "u": 8,
+          "v": 10,
+          "weight": 4
+        },
+        {
+          "u": 10,
+          "v": 12,
+          "weight": 5
+        },
+        {
+          "u": 12,
+          "v": 14,
+          "weight": 8
+        },
+        {
+          "u": 14,
+          "v": 16,
+          "weight": 3
+        },
+        {
+          "u": 16,
+          "v": 18,
+          "weight": 5
+        },
+        {
+          "u": 18,
+          "v": 20,
+          "weight": 7
+        },
+        {
+          "u": 20,
+          "v": 22,
+          "weight": 9
+        },
+        {
+          "u": 22,
+          "v": 24,
+          "weight": 5
+        },
+        {
+          "u": 21,
+          "v": 23,
+          "weight": 10
+        }
+      ],
+      "totalCost": 143,
+      "vertices": 25,
+      "edges": 26,
+      "operations": 104,
+      "timeMs": 0
+    },
+    "kruskal": {
+      "algorithm": "Kruskal",
+      "mstEdges": [
+        {
+          "u": 4,
+          "v": 6,
+          "weight": 2
+        },
+        {
+          "u": 0,
+          "v": 2,
+          "weight": 3
+        },
+        {
+          "u": 7,
+          "v": 9,
+          "weight": 3
+        },
+        {
+          "u": 14,
+          "v": 16,
+          "weight": 3
+        },
+        {
+          "u": 1,
+          "v": 3,
+          "weight": 4
+        },
+        {
+          "u": 8,
+          "v": 10,
+          "weight": 4
+        },
+        {
+          "u": 15,
+          "v": 17,
+          "weight": 4
+        },
+        {
+          "u": 0,
+          "v": 1,
+          "weight": 5
+        },
+        {
+          "u": 10,
+          "v": 12,
+          "weight": 5
+        },
+        {
+          "u": 16,
+          "v": 18,
+          "weight": 5
+        },
+        {
+          "u": 22,
+          "v": 24,
+          "weight": 5
+        },
+        {
+          "u": 3,
+          "v": 5,
+          "weight": 6
+        },
+        {
+          "u": 11,
+          "v": 13,
+          "weight": 6
+        },
+        {
+          "u": 17,
+          "v": 19,
+          "weight": 6
+        },
+        {
+          "u": 2,
+          "v": 4,
+          "weight": 7
+        },
+        {
+          "u": 9,
+          "v": 11,
+          "weight": 7
+        },
+        {
+          "u": 18,
+          "v": 20,
+          "weight": 7
+        },
+        {
+          "u": 5,
+          "v": 7,
+          "weight": 8
+        },
+        {
+          "u": 12,
+          "v": 14,
+          "weight": 8
+        },
+        {
+          "u": 19,
+          "v": 21,
+          "weight": 8
+        },
+        {
+          "u": 6,
+          "v": 8,
+          "weight": 9
+        },
+        {
+          "u": 13,
+          "v": 15,
+          "weight": 9
+        },
+        {
+          "u": 20,
+          "v": 22,
+          "weight": 9
+        },
+        {
+          "u": 21,
+          "v": 23,
+          "weight": 10
+        }
+      ],
+      "totalCost": 143,
+      "vertices": 25,
+      "edges": 26,
+      "operations": 52,
+      "timeMs": 0
+    }
+  }
+]
