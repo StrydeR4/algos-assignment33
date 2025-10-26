@@ -71,7 +71,7 @@ The dataset (`input.json`) includes small, medium, and large graphs to verify bo
 
 ---
 
-## Real Results (from output.csv)
+## Real Results 
 
 | Graph | Vertices | Edges | Prim Cost | Prim Time (ms) | Kruskal Cost | Kruskal Time (ms) | Faster |
 |:------|:---------:|:------:|:----------:|:----------------:|:--------------:|:------------------:|:--------:|
